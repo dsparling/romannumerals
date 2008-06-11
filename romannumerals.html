@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>jquery romannumerals plugin</title>
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="jquery.romannumerals.js"></script>
+<script type="text/javascript">
+  $(function($) {
+    var options = {
+      fontFamily: 'Verdana, Times New Roman',
+      fontSize: '20px',
+      foreground: 'green'
+    }
+    $('.roman').romannumerals(options);
+  });
+</script>
+</head>
+<body>
+
+1 is <span class="roman">1</span><br/>
+10 is <span class="roman">10</span><br/>
+100 is <span class="roman">100</span><br/>
+1000 is <span class="roman">1000</span><br/>
+4999 is <span class="roman">4999</span><br/>
+<!-- 5000 is <span class="roman">5000</span><br/> -->
+
+</body>
+</html>
