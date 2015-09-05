@@ -2,7 +2,7 @@
  * jQuery romannumerals - Roman Numberl converter  plugin - v 1.0.0
  * http://plugins.jquery.com/project/romannumerals
  *
- * Copyright (c) 2007-2008 Doug Sparling <http://www.dougsparling.com>
+ * Copyright (c) 2007-2015 Doug Sparling <http://www.dougsparling.com>
  * Licensed under the MIT License:
  *   http://www.opensource.org/licenses/mit-license.php
  */
