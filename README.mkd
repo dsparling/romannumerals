@@ -15,7 +15,7 @@ In you website page, add this code to load the file :
 Usage
 =====
 
-Simple use the class selector "roman" to convert an Arabic number to a Roman number in your html. 
+Simply use the class selector "roman" to convert an Arabic number to a Roman number in your html. 
 
     100 is <span class="roman">100</span>
 
@@ -26,7 +26,7 @@ which will dsiplay:
 Options
 =======
 
-romannumberals provides three options: fontFamily, fontSize, and foregroud:
+romannumerals provides three options: `fontFamily`, `fontSize`, and `foregroud`:
 
     $(function($) {
       var options = {
