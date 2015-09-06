@@ -153,6 +153,15 @@ describe("Romannumerals", function() {
     $(".roman").remove();
   });
 
+  it('should convert Arabic numeral 500 to Roman numeral D', function () {
+    $('<span class="roman">500</span>').appendTo('body');
+    var span = $(".roman");
+    span.romannumerals();
+    var convertedRomanNumeral = $("span.roman").text();
+    expect(convertedRomanNumeral).toEqual('D');
+    $(".roman").remove();
+  });
+
   it('should convert Arabic numeral 1000 to Roman numeral M', function () {
     $('<span class="roman">1000</span>').appendTo('body');
     var span = $(".roman");
